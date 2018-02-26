@@ -1,0 +1,60 @@
+.rectangle {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 450px;
+    background-color: #ccc;
+    border-radius: 3px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24)
+}
+
+.flex-centered-container {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+}
+
+.login-container {
+    height: 90%;
+    margin: 40px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    opacity: 2;
+    margin: 40px auto;
+}
+
+.login-input {
+    width: 70%;
+}
+
+.input-container{
+    width: 70%;
+}
+
+.space{
+    margin-bottom: 60px;
+}
+
+.signin-button {
+    width: 100%;
+    background-color: #959aa1;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+}
+.login-form-forgot {
+    float: right;
+}
+.login-form-button {
+    width: 100%;
+}

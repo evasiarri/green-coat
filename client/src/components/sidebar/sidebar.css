@@ -1,0 +1,37 @@
+/* The width of sidebar-space and content-space must be correlated i.e the same number*/
+.sidebar-space {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    /*background: #efefef;*/
+    background: linear-gradient(to right, #e4e4e4, #e6e6e6, #e4e4e4);
+    border-right-color: #959aa1;
+    border-right-style: solid;
+}
+
+.sidebar-container {
+    height: 80%;
+    width: 300px;
+}
+
+.sidebar-button {
+    /*width: 80%;*/
+    /*margin-bottom: 10px;*/
+
+    cursor: pointer;
+    height: 50px;
+    background-color: #a5b7ba;
+    font-weight: bold;
+    color: white;
+    border-right-color: #959aa1;
+    border-right-style: solid;
+    text-align: center;
+    line-height: 50px
+    /*justify-content: center;*/
+
+}
+
+.sidebar-button:hover {
+    background-color: #b6c8cb;
+
+}

@@ -1,0 +1,13 @@
+.flex-column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.centered{
+    margin: 100px auto 60px;
+    width: 75%;
+}
+
+.upper-space {
+    margin-top: 200px;
+}

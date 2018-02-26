@@ -1,0 +1,34 @@
+/* This code was borrowed from StackOverflow - in order to make body element the whole pge*/
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.flex-column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-icon {
+    margin-bottom: 80px;
+    font-size: 50px;
+    color: #959aa1;
+    cursor: pointer;
+}
+
+.centered{
+    margin: 100px auto 60px;
+}
+
+.centered-top{
+    margin: 0 auto;
+}
+
+.content-space {
+    position: relative;
+    left: 300px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "set PORT=3001 && nodemon ./src/index.js"
+    "start": "PORT=3001 nodemon ./src/index.js"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
@@ -18,7 +18,7 @@
     "mssql": "^4.1.0",
     "mysql": "^2.15.0",
     "serve-favicon": "~2.4.5",
-	"nodemon": "~1.15.1",
-	"create-react-app": "~1.5.1"
+    "nodemon": "~1.15.1",
+    "create-react-app": "~1.5.1"
   }
 }

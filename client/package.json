@@ -16,11 +16,11 @@
 	"create-react-app": "~1.5.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=8080 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3001",
+  "proxy": "http://159.203.183.145:3001",
   "homepage": "greencoat.us-east-2.elasticbeanstalk.com"
 }

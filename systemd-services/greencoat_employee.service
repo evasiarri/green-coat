@@ -1,0 +1,15 @@
+[Unit]
+Description=Run the green-coat employee-client
+Documentation=https://example.com
+After=network.target
+
+[Service]
+Environment=PORT=8081
+Type=simple
+User=root
+ExecStart=/usr/bin/npm start --prefix /var/node/green-coat/employee-client
+Restart=on-failure
+WorkingDirectory=/var/node/green-coat/employee-client
+
+[Install]
+WantedBy=multi-user.target

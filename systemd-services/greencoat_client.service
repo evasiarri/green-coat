@@ -1,0 +1,15 @@
+[Unit]
+Description=Run the green-coat client
+Documentation=https://example.com
+After=network.target
+
+[Service]
+Environment=PORT=8080
+Type=simple
+User=root
+ExecStart=/usr/bin/npm start --prefix /var/node/green-coat/client
+Restart=on-failure
+WorkingDirectory=/var/node/green-coat/client
+
+[Install]
+WantedBy=multi-user.target

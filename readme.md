@@ -14,7 +14,7 @@ Instructions for deploying on a server:
 
 3. Download library:
 	```console
-	$ clone https://github.com/evasiarri/green-coat.git
+	$ git clone https://github.com/evasiarri/green-coat.git
 	$ cd green-coat
 	```
 

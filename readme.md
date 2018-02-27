@@ -2,9 +2,9 @@
 
 Instructions for deploying on a server:
 1. Go to `/var/`
-```console
-$ cd /var
-```
+	```console
+	$ cd /var
+	```
 
 2. Create a directory named `node`:
 	```console
